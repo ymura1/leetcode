@@ -1,14 +1,5 @@
 
-class TreeNode {
-    val: number;
-    left: TreeNode | null;
-    right: TreeNode | null;
-    constructor(val: number, left?: TreeNode, right?: TreeNode) {
-        this.val = (val===undefined ? 0 : val)
-        this.left = (left===undefined ? null : left)
-        this.right = (right===undefined ? null : right)
-    }
-}
+import TreeNode from "./TreeNode";
 
 /**
  * 
@@ -30,4 +21,4 @@ var isBalanced = function(root: TreeNode | null): boolean {
     return checkBalance(root)[0];
 };
 
-export { isBalanced, TreeNode }
+export { isBalanced }
