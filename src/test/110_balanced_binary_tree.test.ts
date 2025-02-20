@@ -1,4 +1,5 @@
-import { isBalanced, TreeNode } from "../110_balanced_binary_tree";
+import { isBalanced } from "../110_balanced_binary_tree";
+import TreeNode from "../TreeNode";
 
 test('balanced binary tree', () => {
     const node1 = new TreeNode(1);
